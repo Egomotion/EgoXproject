@@ -47,7 +47,7 @@ EgoXproject needs to link against the Unity DLLs so it can draw its UI. As such 
 * Similarly, for Unity 2017, and 2018 you need to link against those versions. There may be compatibility between these Unity DLLs allowing you to build against one version and run on another. But sometimes things change and cause things to break.
 * The project is configured to look in `/Applications/Unity/` for the DLLs. The project can be configured to reference different DLLs for different builds.
 * The DLLs can be found in a Unity installation at `Unity.app/Contents/Frameworks/Managed/UnityEditor.dll` and
- `Unity.app/Contents/Frameworks/Managed/UnityEngine.dll
+ `Unity.app/Contents/Frameworks/Managed/UnityEngine.dll`
 
 ### Testing
 There are a suite of Unit tests that can be run in the Unity project using Unity's built in Test Runner. A lot of the tests write out a project file that is compared to an existing file.

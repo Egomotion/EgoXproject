@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="1" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="13F34" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Entity" syncable="YES">
+        <attribute name="attribute" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="attribute1" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="attribute3" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entity1" inverseName="relationship" inverseEntity="Entity1" syncable="YES"/>
+        <relationship name="relationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entity" syncable="YES"/>
+        <fetchedProperty name="fetchedProperty" optional="YES" syncable="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="Entity"/>
+        </fetchedProperty>
+    </entity>
+    <entity name="Entity1" syncable="YES">
+        <attribute name="attribute" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="attribute1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="attribute2" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entity" inverseName="relationship" inverseEntity="Entity" syncable="YES"/>
+    </entity>
+    <entity name="Entity2" syncable="YES">
+        <attribute name="attribute" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Entity1" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="25" positionY="-126" width="128" height="146"/>
+        <element name="Entity1" positionX="295" positionY="-162" width="128" height="103"/>
+        <element name="Entity2" positionX="225" positionY="63" width="162" height="73"/>
+    </elements>
+</model>

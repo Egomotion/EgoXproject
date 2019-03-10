@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67830828-0D5D-4F9D-86D4-25C176A26563}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Egomotion.EgoXproject</RootNamespace>
+    <AssemblyName>EgoXproject</AssemblyName>
+    <ReleaseVersion>3.1.1</ReleaseVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG; DETERMINISTIC</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>BeforeBuild</type>
+          <command>mkdir -p ../../EgoXprojectUnity/Assets/egomotion/egoXproject/Editor/</command>
+        </Command>
+        <Command>
+          <type>AfterBuild</type>
+          <command>cp ${TargetFile} ../../EgoXprojectUnity/Assets/egomotion/egoXproject/Editor/</command>
+        </Command>
+        <Command>
+          <type>AfterBuild</type>
+          <command>cp bin/${ProjectConfigName}/EgoXproject.pdb ../../EgoXprojectUnity/Assets/egomotion/egoXproject/Editor/ </command>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEditor">
+      <HintPath>..\..\..\..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\..\Applications\Unity\Unity.app\Contents\Frameworks\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="UI\PList\GeneralPListEditor.cs" />
+    <Compile Include="UI\PList\PListDrawerMutable.cs" />
+    <Compile Include="Internal\PBXProj\PBXProj.cs" />
+    <Compile Include="Internal\PBXProj\Parser\PBXProjParser.cs" />
+    <Compile Include="Internal\PBXProj\Parser\PBXProjParserException.cs" />
+    <Compile Include="Internal\PBXProj\Parser\PBXProjToken.cs" />
+    <Compile Include="Internal\PBXProj\Parser\PBXProjTokenizer.cs" />
+    <Compile Include="Internal\PBXProj\Parser\Types\IPBXProjExpression.cs" />
+    <Compile Include="Internal\PBXProj\Parser\Types\PBXProjArray.cs" />
+    <Compile Include="Internal\PBXProj\Parser\Types\PBXProjBoolean.cs" />
+    <Compile Include="Internal\PBXProj\Parser\Types\PBXProjDictionary.cs" />
+    <Compile Include="Internal\PBXProj\Parser\Types\PBXProjString.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXBuildFile.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXCopyFilesBuildPhase.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXFileReference.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXFrameworksBuildPhase.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXGroup.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXNativeTarget.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXProject.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXResourcesBuildPhase.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXShellScriptBuildPhase.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXSourcesBuildPhase.cs" />
+    <Compile Include="Internal\PBXProj\Types\XCBuildConfiguration.cs" />
+    <Compile Include="Internal\PBXProj\Types\XCConfigurationList.cs" />
+    <Compile Include="Internal\PList\PList.cs" />
+    <Compile Include="Internal\PList\Types\IPListElement.cs" />
+    <Compile Include="Internal\PList\Types\PListArray.cs" />
+    <Compile Include="Internal\PList\Types\PListBoolean.cs" />
+    <Compile Include="Internal\PList\Types\PListData.cs" />
+    <Compile Include="Internal\PList\Types\PListDate.cs" />
+    <Compile Include="Internal\PList\Types\PListDictionary.cs" />
+    <Compile Include="Internal\PList\Types\PListString.cs" />
+    <Compile Include="Internal\PList\Types\PlistInteger.cs" />
+    <Compile Include="Internal\PList\Types\PlistReal.cs" />
+    <Compile Include="Internal\Shared\DataTypes.cs" />
+    <Compile Include="Internal\Shared\EnumExtensions.cs" />
+    <Compile Include="Internal\Shared\ProjectUtil.cs" />
+    <Compile Include="Internal\Shared\StringUtils.cs" />
+    <Compile Include="Internal\Shared\XcodeDataValueAttribute.cs" />
+    <Compile Include="Internal\AssetWatcher.cs" />
+    <Compile Include="Internal\PBXProj\Types\XCVersionGroup.cs" />
+    <Compile Include="Internal\XcodeController.cs" />
+    <Compile Include="Internal\XcodeSettings.cs" />
+    <Compile Include="Internal\ChangeFile\XcodeChangeFile.cs" />
+    <Compile Include="UI\Internal\TextureResources.cs" />
+    <Compile Include="Internal\ChangeFile\BaseChangeEntry.cs" />
+    <Compile Include="Internal\ChangeFile\ScriptEntry.cs" />
+    <Compile Include="Internal\ChangeFile\ScriptChanges.cs" />
+    <Compile Include="Internal\ChangeFile\BaseChangeGroup.cs" />
+    <Compile Include="Internal\XcodeBuildSettings.cs" />
+    <Compile Include="UI\PreviewTab.cs" />
+    <Compile Include="UI\ChangeFileTab.cs" />
+    <Compile Include="UI\BaseChangeFileDrawer.cs" />
+    <Compile Include="UI\Internal\BasePListElementDrawer.cs" />
+    <Compile Include="UI\Internal\PListElementDrawer.cs" />
+    <Compile Include="UI\Internal\PListElementDrawerMutable.cs" />
+    <Compile Include="Internal\XcodeProjectManipulator.cs" />
+    <Compile Include="Internal\IgnoredFiles.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXContainerItemProxy.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXTargetDependency.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXVariantGroup.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXBaseObject.cs" />
+    <Compile Include="Internal\PBXProj\PBXFileType.cs" />
+    <Compile Include="Internal\PBXProj\PBXFileTypeHelper.cs" />
+    <Compile Include="UI\XcodeEditorWindow.cs" />
+    <Compile Include="XcodeEditor.cs" />
+    <Compile Include="EgoXprojectEnums.cs" />
+    <Compile Include="Internal\XcodeSDKFinder.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXHeadersBuildPhase.cs" />
+    <Compile Include="Internal\PBXProj\Types\PBXBaseBuildPhase.cs" />
+    <Compile Include="Internal\Upgrader.cs" />
+    <Compile Include="UI\EditorMerge.cs" />
+    <Compile Include="Internal\Shared\PathUtil.cs" />
+    <Compile Include="Internal\PBXProj\GroupPath.cs" />
+    <Compile Include="UI\FrameworksPopover.cs" />
+    <Compile Include="UI\ListSelectionPopover.cs" />
+    <Compile Include="UI\BuildSettingSelectionPopover.cs" />
+    <Compile Include="Internal\BuildSettingTypes.cs" />
+    <Compile Include="UI\SettingsWindow.cs" />
+    <Compile Include="UI\ConfigurationsTab.cs" />
+    <Compile Include="Internal\Shared\DllUtils.cs" />
+    <Compile Include="Internal\XcodeConfigurations.cs" />
+    <Compile Include="Internal\ChangeFile\SystemFrameworkEntry.cs" />
+    <Compile Include="Internal\ChangeFile\SigningChanges.cs" />
+    <Compile Include="Internal\Shared\SystemCapability.cs" />
+    <Compile Include="Internal\ChangeFile\BuildSettings\BaseBuildSettingEntry.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\BaseCapability.cs" />
+    <Compile Include="Internal\ChangeFile\BuildSettings\BoolBuildSettingEntry.cs" />
+    <Compile Include="Internal\ChangeFile\BuildSettings\CollectionBuildSettingEntry.cs" />
+    <Compile Include="Internal\ChangeFile\BuildSettings\CustomStringBuildSettingEntry.cs" />
+    <Compile Include="Internal\ChangeFile\BuildSettings\EnumBuildSettingEntry.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\BaseFileEntry.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\CapabilitiesChanges.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\FileAndFolderEntryFactory.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\FileEntry.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\FilesAndFolderChanges.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\FolderEntry.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\FrameworkChanges.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\FrameworkEntry.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\GameCenterCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\ICloudCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\PushNotificationsCapability.cs" />
+    <Compile Include="Internal\ChangeFile\BuildSettings\BuildSettingsChanges.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\SourceFileEntry.cs" />
+    <Compile Include="Internal\ChangeFile\FilesAndFolders\StaticLibraryEntry.cs" />
+    <Compile Include="Internal\ChangeFile\BuildSettings\StringBuildSettingEntry.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\WirelessAccessoryConfigurationCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\HealthKitCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\HomeKitCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\DataProtectionapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\AppGroupsCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\KeychainSharingCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\InterAppAudioCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\BackgroundModesCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\NetworkExtensionsCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\PersonalVPNCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\MapsCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\InAppPurchaseCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\ApplePayCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\SiriCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\WalletCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\AssociatedDomainsCapability.cs" />
+    <Compile Include="UI\TextEditPopover.cs" />
+    <Compile Include="UI\IOSXcodeEditorWindow.cs" />
+    <Compile Include="UI\TvOSXcodeEditorWindow.cs" />
+    <Compile Include="UI\Internal\Styling.cs" />
+    <Compile Include="Internal\XcodeFinder.cs" />
+    <Compile Include="Internal\PlatformConfiguration.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\HotspotConfigurationCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\MultipathCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\NFCTagReadingCapability.cs" />
+    <Compile Include="Internal\ChangeFile\Capabilities\GameControllersCapability.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="UI\" />
+    <Folder Include="Internal\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Internal\ChangeFile\" />
+    <Folder Include="UI\Internal\" />
+    <Folder Include="Internal\ChangeFile\Capabilities\" />
+    <Folder Include="Internal\ChangeFile\BuildSettings\" />
+    <Folder Include="Internal\ChangeFile\FilesAndFolders\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <StandardHeader IncludeInNewFiles="True" Text="------------------------------------------&#xA;  EgoXproject&#xA;  Copyright © 2013-2019 Egomotion Limited&#xA;------------------------------------------&#xA;" />
+          <NameConventionPolicy>
+            <Rules>
+              <NamingRule Name="Namespaces" AffectedEntity="Namespace" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Types" AffectedEntity="Class, Struct, Enum, Delegate" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Interfaces" AffectedEntity="Interface" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
+                <RequiredPrefixes>
+                  <String>I</String>
+                </RequiredPrefixes>
+              </NamingRule>
+              <NamingRule Name="Attributes" AffectedEntity="CustomAttributes" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
+                <RequiredSuffixes>
+                  <String>Attribute</String>
+                </RequiredSuffixes>
+              </NamingRule>
+              <NamingRule Name="Event Arguments" AffectedEntity="CustomEventArgs" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
+                <RequiredSuffixes>
+                  <String>EventArgs</String>
+                </RequiredSuffixes>
+              </NamingRule>
+              <NamingRule Name="Exceptions" AffectedEntity="CustomExceptions" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
+                <RequiredSuffixes>
+                  <String>Exception</String>
+                </RequiredSuffixes>
+              </NamingRule>
+              <NamingRule Name="Methods" AffectedEntity="Methods" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Static Readonly Fields" AffectedEntity="ReadonlyField" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="False" IncludeStaticEntities="True" />
+              <NamingRule Name="Fields (Non Private)" AffectedEntity="Field" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="ReadOnly Fields (Non Private)" AffectedEntity="ReadonlyField" VisibilityMask="Internal, Protected, Public" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="False" />
+              <NamingRule Name="Fields (Private)" AffectedEntity="Field, ReadonlyField" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="False">
+                <AllowedPrefixes>
+                  <String>_</String>
+                  <String>m_</String>
+                </AllowedPrefixes>
+              </NamingRule>
+              <NamingRule Name="Static Fields (Private)" AffectedEntity="Field" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="False" IncludeStaticEntities="True" />
+              <NamingRule Name="ReadOnly Fields (Private)" AffectedEntity="ReadonlyField" VisibilityMask="Private" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="False">
+                <AllowedPrefixes>
+                  <String>_</String>
+                  <String>m_</String>
+                </AllowedPrefixes>
+              </NamingRule>
+              <NamingRule Name="Constant Fields" AffectedEntity="ConstantField" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Properties" AffectedEntity="Property" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Events" AffectedEntity="Event" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Enum Members" AffectedEntity="EnumMember" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Parameters" AffectedEntity="Parameter" VisibilityMask="VisibilityMask" NamingStyle="CamelCase" IncludeInstanceMembers="True" IncludeStaticEntities="True" />
+              <NamingRule Name="Type Parameters" AffectedEntity="TypeParameter" VisibilityMask="VisibilityMask" NamingStyle="PascalCase" IncludeInstanceMembers="True" IncludeStaticEntities="True">
+                <RequiredPrefixes>
+                  <String>T</String>
+                </RequiredPrefixes>
+              </NamingRule>
+            </Rules>
+          </NameConventionPolicy>
+          <TextStylePolicy FileWidth="120" TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" TabsToSpaces="True" scope="text/plain" />
+          <VersionControlPolicy>
+            <CommitMessageStyle Header="" Indent="" FirstFilePrefix="* " FileSeparator=":&#xA;* " LastFilePostfix=": " LineAlign="2" InterMessageLines="1" IncludeDirectoryPaths="False" Wrap="True" />
+          </VersionControlPolicy>
+          <XmlFormattingPolicy scope="application/xml">
+            <DefaultFormat OmitXmlDeclaration="False" IndentContent="True" AttributesInNewLine="False" MaxAttributesPerLine="10" WrapAttributes="False" AlignAttributes="False" AlignAttributeValues="False" QuoteChar="&quot;" SpacesBeforeAssignment="0" SpacesAfterAssignment="0" EmptyLinesBeforeStart="0" EmptyLinesAfterStart="0" EmptyLinesBeforeEnd="0" EmptyLinesAfterEnd="0" />
+          </XmlFormattingPolicy>
+          <CSharpFormattingPolicy IndentBlock="True" IndentBraces="False" IndentSwitchCaseSection="True" LabelPositioning="OneLess" NewLinesForBracesInTypes="True" NewLinesForBracesInMethods="True" SpaceWithinMethodDeclarationParenthesis="False" SpaceBetweenEmptyMethodDeclarationParentheses="False" SpaceWithinMethodCallParentheses="False" SpaceBetweenEmptyMethodCallParentheses="False" SpaceAfterControlFlowStatementKeyword="True" SpaceWithinExpressionParentheses="False" SpaceWithinCastParentheses="False" SpaceWithinOtherParentheses="False" SpaceAfterCast="False" SpacesIgnoreAroundVariableDeclaration="False" SpaceBetweenEmptySquareBrackets="False" SpaceWithinSquareBrackets="False" SpaceAfterColonInBaseTypeDeclaration="True" SpaceAfterComma="True" SpaceAfterDot="False" SpaceAfterSemicolonsInForStatement="True" SpaceBeforeColonInBaseTypeDeclaration="True" SpaceBeforeComma="False" SpaceBeforeDot="False" SpaceBeforeSemicolonsInForStatement="False" SpacingAroundBinaryOperator="Single" WrappingPreserveSingleLine="True" WrappingKeepStatementsOnSingleLine="True" PlaceSystemDirectiveFirst="True" IndentSwitchSection="False" NewLinesForBracesInProperties="False" NewLinesForBracesInAccessors="False" NewLinesForBracesInAnonymousMethods="False" NewLinesForBracesInControlBlocks="False" NewLinesForBracesInAnonymousTypes="False" NewLinesForBracesInObjectCollectionArrayInitializers="False" NewLinesForBracesInLambdaExpressionBody="False" NewLineForElse="False" NewLineForCatch="False" NewLineForFinally="False" NewLineForMembersInObjectInit="False" NewLineForMembersInAnonymousTypes="False" NewLineForClausesInQuery="False" SpacingAfterMethodDeclarationName="True" SpaceAfterMethodCallName="True" SpaceBeforeOpenSquareBracket="True" scope="text/x-csharp" />
+          <ChangeLogPolicy inheritsSet="Mono" />
+          <DotNetNamingPolicy DirectoryNamespaceAssociation="PrefixedHierarchical" ResourceNamePolicy="FileName" />
+          <TextStylePolicy FileWidth="120" TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" TabsToSpaces="True" scope="application/xml" />
+          <TextStylePolicy FileWidth="120" TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" TabsToSpaces="True" scope="text/x-csharp" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Resources.txt" />
+    <EmbeddedResource Include="Resources\topBorder.png" />
+    <EmbeddedResource Include="Resources\textAreaBorder.png" />
+    <EmbeddedResource Include="Resources\edit-dark.png" />
+    <EmbeddedResource Include="Resources\edit-light.png" />
+    <EmbeddedResource Include="Resources\help-dark.png" />
+    <EmbeddedResource Include="Resources\help-light.png" />
+    <EmbeddedResource Include="Resources\minus-dark.png" />
+    <EmbeddedResource Include="Resources\minus-light.png" />
+    <EmbeddedResource Include="Resources\plus-dark.png" />
+    <EmbeddedResource Include="Resources\plus-light.png" />
+    <EmbeddedResource Include="Resources\warning.png" />
+    <EmbeddedResource Include="Resources\refresh-dark.png" />
+    <EmbeddedResource Include="Resources\refresh-light.png" />
+    <EmbeddedResource Include="Resources\Resources-dark.txt" />
+    <EmbeddedResource Include="Resources\Resources-light.txt" />
+    <EmbeddedResource Include="Resources\BuildSettings.plist" />
+    <EmbeddedResource Include="Resources\InfoPlistSettings.plist" />
+  </ItemGroup>
+</Project>

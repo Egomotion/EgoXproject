@@ -1,0 +1,4 @@
+//image name, width, height
+topBorder,12,12
+textAreaBorder,12,12
+warning,20,20

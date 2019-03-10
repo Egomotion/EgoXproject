@@ -1,0 +1,6 @@
+//image name, width, height
+edit-light,14,14
+help-light,16,16
+minus-light,12,12
+plus-light,12,12
+refresh-light,12,12

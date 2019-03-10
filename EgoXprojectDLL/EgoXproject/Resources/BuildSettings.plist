@@ -1,0 +1,3536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Type</key>
+    <string>EgoXproject Build Settings</string>
+    <key>BuildSettings</key>
+    <array>
+      <dict>
+        <key>Setting</key>
+        <string>ADDITIONAL_SDKS</string>
+        <key>Name</key>
+        <string>Additional SDKs</string>
+        <key>Group</key>
+        <string>Architectures</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ARCHS</string>
+        <key>Name</key>
+        <string>Architectures</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Group</key>
+        <string>Architectures</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SDKROOT</string>
+        <key>Name</key>
+        <string>Base SDK</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Architectures</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ONLY_ACTIVE_ARCH</string>
+        <key>Name</key>
+        <string>Build Active Architecture Only</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Architectures</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SUPPORTED_PLATFORMS</string>
+        <key>Name</key>
+        <string>Supported Platforms</string>
+        <key>Group</key>
+        <string>Architectures</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>VALID_ARCHS</string>
+        <key>Name</key>
+        <string>Valid Architectures</string>
+        <key>Group</key>
+        <string>Architectures</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSET_PACK_MANIFEST_URL_PREFIX</string>
+        <key>Name</key>
+        <string>Asset Pack Manifest URL Prefix</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Assets</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE</string>
+        <key>Name</key>
+        <string>Embed Asset Packs In Product Bundle</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Assets</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ENABLE_ON_DEMAND_RESOURCES</string>
+        <key>Name</key>
+        <string>Enable On Demand Resources</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Assets</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS</string>
+        <key>Name</key>
+        <string>On Demand Resources Initial Install Tags</string>
+        <key>Group</key>
+        <string>Assets</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ON_DEMAND_RESOURCES_PREFETCH_ORDER</string>
+        <key>Name</key>
+        <string>On Demand Resources Prefetch Order</string>
+        <key>Group</key>
+        <string>Assets</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SYMROOT</string>
+        <key>Name</key>
+        <string>Build Products Path</string>
+        <key>Group</key>
+        <string>Build Locations</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OBJROOT</string>
+        <key>Name</key>
+        <string>Intermediate Build Files Path</string>
+        <key>Group</key>
+        <string>Build Locations</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CONFIGURATION_BUILD_DIR</string>
+        <key>Name</key>
+        <string>Per-configuration Build Products Path</string>
+        <key>Group</key>
+        <string>Build Locations</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CONFIGURATION_TEMP_DIR</string>
+        <key>Name</key>
+        <string>Per-configuration Intermediate Build Files Path</string>
+        <key>Group</key>
+        <string>Build Locations</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SHARED_PRECOMPS_DIR</string>
+        <key>Name</key>
+        <string>Precompiled Headers Cache Path</string>
+        <key>Group</key>
+        <string>Build Locations</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</string>
+        <key>Name</key>
+        <string>Always Embed Swift Standard Libraries</string>
+        <key>Group</key>
+        <string>Build Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>BUILD_VARIANTS</string>
+        <key>Name</key>
+        <string>Build Variants</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_VERSION</string>
+        <key>Name</key>
+        <string>Compiler for C/C++/Objective-C</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DEBUG_INFORMATION_FORMAT</string>
+        <key>Name</key>
+        <string>Debug Information Format</string>
+        <key>Group</key>
+        <string>Build Options</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>dwarf</key>
+          <string>DWARF</string>
+          <key>dwarf-with-dsym</key>
+          <string>DWARF with dSYM File</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ENABLE_BITCODE</string>
+        <key>Name</key>
+        <string>Enable Bitcode</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ENABLE_TESTABILITY</string>
+        <key>Name</key>
+        <string>Enable Testability</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GENERATE_PROFILING_CODE</string>
+        <key>Name</key>
+        <string>Generate Profiling Code</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR</string>
+        <key>Name</key>
+        <string>Precompiled Header Uses Files From Build Directory</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>APPLICATION_EXTENSION_API_ONLY</string>
+        <key>Name</key>
+        <string>Require Only App-Extension-Safe API</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SCAN_ALL_SOURCE_FILES_FOR_INCLUDES</string>
+        <key>Name</key>
+        <string>Scan All Source Files for Includes</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>VALIDATE_PRODUCT</string>
+        <key>Name</key>
+        <string>Validate Build Product</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Build Options</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>STRIPFLAGS</string>
+        <key>Name</key>
+        <string>Additional Strip Flags</string>
+        <key>Group</key>
+        <string>Deployment</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ALTERNATE_GROUP</string>
+        <key>Name</key>
+        <string>Alternate Install Group</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ALTERNATE_OWNER</string>
+        <key>Name</key>
+        <string>Alternate Install Owner</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ALTERNATE_MODE</string>
+        <key>Name</key>
+        <string>Alternate Install Permissions</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ALTERNATE_PERMISSIONS_FILES</string>
+        <key>Name</key>
+        <string>Alternate Permissions Files</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DEPLOYMENT_LOCATION</string>
+        <key>Name</key>
+        <string>Deployment Location</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DEPLOYMENT_POSTPROCESSING</string>
+        <key>Name</key>
+        <string>Deployment Postprocessing</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INSTALL_GROUP</string>
+        <key>Name</key>
+        <string>Install Group</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INSTALL_OWNER</string>
+        <key>Name</key>
+        <string>Install Owner</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INSTALL_MODE_FLAG</string>
+        <key>Name</key>
+        <string>Install Permissions</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DSTROOT</string>
+        <key>Name</key>
+        <string>Installation Build Products Location</string>
+        <key>Group</key>
+        <string>Deployment</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INSTALL_PATH</string>
+        <key>Name</key>
+        <string>Installation Directory</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>RESOURCES_TARGETED_DEVICE_FAMILY</string>
+        <key>Name</key>
+        <string>Resources Targeted Device Family</string>
+        <key>Group</key>
+        <string>Deployment</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SKIP_INSTALL</string>
+        <key>Name</key>
+        <string>Skip Install</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>COPY_PHASE_STRIP</string>
+        <key>Name</key>
+        <string>Strip Debug Symbols During Copy</string>
+        <key>Group</key>
+        <string>Deployment</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>STRIP_INSTALLED_PRODUCT</string>
+        <key>Name</key>
+        <string>Strip Linked Product</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>STRIP_STYLE</string>
+        <key>Name</key>
+        <string>Strip Style</string>
+        <key>Group</key>
+        <string>Deployment</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>all</key>
+          <string>All Symbols</string>
+          <key>non-global</key>
+          <string>Non-Global Symbols</string>
+          <key>debugging</key>
+          <string>Debugging Symbols</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>TARGETED_DEVICE_FAMILY</string>
+        <key>Name</key>
+        <string>Targeted Device Family</string>
+        <key>Group</key>
+        <string>Deployment</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>1</key>
+          <string>1</string>
+          <key>2</key>
+          <string>2</string>
+          <key>1,2</key>
+          <string>1,2</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SEPARATE_STRIP</string>
+        <key>Name</key>
+        <string>Use Separate Strip</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IPHONEOS_DEPLOYMENT_TARGET</string>
+        <key>Name</key>
+        <string>iOS Deployment Target</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MACOSX_DEPLOYMENT_TARGET</string>
+        <key>Name</key>
+        <string>macOS Deployment Target</string>
+        <key>Group</key>
+        <string>Deployment</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>TVOS_DEPLOYMENT_TARGET</string>
+        <key>Name</key>
+        <string>tvOS Deployment Target</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>WATCHOS_DEPLOYMENT_TARGET</string>
+        <key>Name</key>
+        <string>watchOS Deployment Target</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Deployment</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>COPY_HEADERS_RUN_UNIFDEF</string>
+        <key>Name</key>
+        <string>Run unifdef on Product Headers</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Headers</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>COPY_HEADERS_UNIFDEF_FLAGS</string>
+        <key>Name</key>
+        <string>Unifdef Flags for Product Headers</string>
+        <key>Group</key>
+        <string>Headers</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>BUNDLE_LOADER</string>
+        <key>Name</key>
+        <string>Bundle Loader</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DYLIB_COMPATIBILITY_VERSION</string>
+        <key>Name</key>
+        <string>Compatibility Version</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DYLIB_CURRENT_VERSION</string>
+        <key>Name</key>
+        <string>Current Library Version</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DEAD_CODE_STRIPPING</string>
+        <key>Name</key>
+        <string>Dead Code Stripping</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LINKER_DISPLAYS_MANGLED_NAMES</string>
+        <key>Name</key>
+        <string>Display Mangled Names</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRESERVE_DEAD_CODE_INITS_AND_TERMS</string>
+        <key>Name</key>
+        <string>Don't Dead-Strip Inits and Terms</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LD_DYLIB_INSTALL_NAME</string>
+        <key>Name</key>
+        <string>Dynamic Library Install Name</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DYLIB_INSTALL_NAME_BASE</string>
+        <key>Name</key>
+        <string>Dynamic Library Install Name Base</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>EXPORTED_SYMBOLS_FILE</string>
+        <key>Name</key>
+        <string>Exported Symbols File</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LD_NO_PIE</string>
+        <key>Name</key>
+        <string>Generate Position-Dependent Executables</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INIT_ROUTINE</string>
+        <key>Name</key>
+        <string>Initialization Routine</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LINK_WITH_STANDARD_LIBRARIES</string>
+        <key>Name</key>
+        <string>Link With Standard Libraries</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MACH_O_TYPE</string>
+        <key>Name</key>
+        <string>Mach-O Type</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>mh_execute</key>
+          <string>Executable</string>
+          <key>mh_dylib</key>
+          <string>Dynamic Library</string>
+          <key>mh_bundle</key>
+          <string>Bundle</string>
+          <key>staticlib</key>
+          <string>Static Library</string>
+          <key>mh_object</key>
+          <string>Relocatable Object File</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ORDER_FILE</string>
+        <key>Name</key>
+        <string>Order File</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OTHER_LIBTOOLFLAGS</string>
+        <key>Name</key>
+        <string>Other Librarian Flags</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OTHER_LDFLAGS</string>
+        <key>Name</key>
+        <string>Other Linker Flags</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LD_MAP_FILE_PATH</string>
+        <key>Name</key>
+        <string>Path to Link Map File</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GENERATE_MASTER_OBJECT_FILE</string>
+        <key>Name</key>
+        <string>Perform Single-Object Prelink</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRELINK_LIBS</string>
+        <key>Name</key>
+        <string>Prelink libraries</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>KEEP_PRIVATE_EXTERNS</string>
+        <key>Name</key>
+        <string>Preserve Private External Symbols</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER</string>
+        <key>Name</key>
+        <string>Quote Linker Arguments</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>REEXPORTED_FRAMEWORK_NAMES</string>
+        <key>Name</key>
+        <string>Re-Exported Framework Names</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>REEXPORTED_LIBRARY_NAMES</string>
+        <key>Name</key>
+        <string>Re-Exported Library Names</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>REEXPORTED_LIBRARY_PATHS</string>
+        <key>Name</key>
+        <string>Re-Exported Library Paths</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>StringList</string>
+        <key>Inherit</key>
+        <false />
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LD_RUNPATH_SEARCH_PATHS</string>
+        <key>Name</key>
+        <string>Runpath Search Paths</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>StringList</string>
+        <key>Inherit</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SEPARATE_SYMBOL_EDIT</string>
+        <key>Name</key>
+        <string>Separately Edit Symbols</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRELINK_FLAGS</string>
+        <key>Name</key>
+        <string>Single-Object Prelink Flags</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SECTORDER_FLAGS</string>
+        <key>Name</key>
+        <string>Symbol Ordering Flags</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>Array</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>UNEXPORTED_SYMBOLS_FILE</string>
+        <key>Name</key>
+        <string>Unexported Symbols File</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Linking</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>WARNING_LDFLAGS</string>
+        <key>Name</key>
+        <string>Warning Linker Flags</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>Array</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LD_GENERATE_MAP_FILE</string>
+        <key>Name</key>
+        <string>Write Link Map File</string>
+        <key>Group</key>
+        <string>Linking</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>APPLY_RULES_IN_COPY_FILES</string>
+        <key>Name</key>
+        <string>Convert Copied Files</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CREATE_INFOPLIST_SECTION_IN_BINARY</string>
+        <key>Name</key>
+        <string>Create Info.plist Section in Binary</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DEFINES_MODULE</string>
+        <key>Name</key>
+        <string>Defines Module</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>EXECUTABLE_EXTENSION</string>
+        <key>Name</key>
+        <string>Executable Extension</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>EXECUTABLE_PREFIX</string>
+        <key>Name</key>
+        <string>Executable Prefix</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INFOPLIST_EXPAND_BUILD_SETTINGS</string>
+        <key>Name</key>
+        <string>Expand Build Settings in Info.plist File</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GENERATE_PKGINFO_FILE</string>
+        <key>Name</key>
+        <string>Force Package Info Generation</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INFOPLIST_FILE</string>
+        <key>Name</key>
+        <string>Info.plist File</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>FRAMEWORK_VERSION</string>
+        <key>Name</key>
+        <string>Framework Version</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INFOPLIST_OTHER_PREPROCESSOR_FLAGS</string>
+        <key>Name</key>
+        <string>Info.plist Other Preprocessor Flags</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INFOPLIST_OUTPUT_FORMAT</string>
+        <key>Name</key>
+        <string>Info.plist Output Encoding</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>same-as-input</key>
+          <string>same-as-input</string>
+          <key>XML</key>
+          <string>XML</string>
+          <key>binary</key>
+          <string>binary</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>2</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INFOPLIST_PREPROCESSOR_DEFINITIONS</string>
+        <key>Name</key>
+        <string>Info.plist Preprocessor Definitions</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Array</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INFOPLIST_PREFIX_HEADER</string>
+        <key>Name</key>
+        <string>Info.plist Preprocessor Prefix File</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MODULEMAP_FILE</string>
+        <key>Name</key>
+        <string>Module Map File</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INFOPLIST_PREPROCESS</string>
+        <key>Name</key>
+        <string>Preprocess Info.plist File</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>COPYING_PRESERVES_HFS_DATA</string>
+        <key>Name</key>
+        <string>Preserve HFS Data</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRIVATE_HEADERS_FOLDER_PATH</string>
+        <key>Name</key>
+        <string>Private Headers Folder Path</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MODULEMAP_PRIVATE_FILE</string>
+        <key>Name</key>
+        <string>PrivateModule Map File</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRODUCT_BUNDLE_IDENTIFIER</string>
+        <key>Name</key>
+        <string>Product Bundle Identifier</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRODUCT_MODULE_NAME</string>
+        <key>Name</key>
+        <string>Product Module Name</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PRODUCT_NAME</string>
+        <key>Name</key>
+        <string>Product Name</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PLIST_FILE_OUTPUT_FORMAT</string>
+        <key>Name</key>
+        <string>Property List Output Encoding</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>same-as-input</key>
+          <string>same-as-input</string>
+          <key>XML</key>
+          <string>XML</string>
+          <key>binary</key>
+          <string>binary</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>2</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PUBLIC_HEADERS_FOLDER_PATH</string>
+        <key>Name</key>
+        <string>Public Headers Folder Path</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>STRINGS_FILE_OUTPUT_ENCODING</string>
+        <key>Name</key>
+        <string>Strings file Output Encoding</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>UTF-16</key>
+          <string>UTF-16</string>
+          <key>UTF-8</key>
+          <string>UTF-8</string>
+          <key>binary</key>
+          <string>binary</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>2</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>WRAPPER_EXTENSION</string>
+        <key>Name</key>
+        <string>Wrapper Extension</string>
+        <key>Group</key>
+        <string>Packaging</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ALWAYS_SEARCH_USER_PATHS</string>
+        <key>Name</key>
+        <string>Always Search User Paths</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>FRAMEWORK_SEARCH_PATHS</string>
+        <key>Name</key>
+        <string>Framework Search Paths</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Inherit</key>
+        <true />
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>HEADER_SEARCH_PATHS</string>
+        <key>Name</key>
+        <string>Header Search Paths</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Inherit</key>
+        <false />
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LIBRARY_SEARCH_PATHS</string>
+        <key>Name</key>
+        <string>Library Search Paths</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Inherit</key>
+        <true />
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>REZ_SEARCH_PATHS</string>
+        <key>Name</key>
+        <string>Rez Search Paths</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Inherit</key>
+        <false />
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES</string>
+        <key>Name</key>
+        <string>Sub-Directories to Exclude in Recursive Searches</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES</string>
+        <key>Name</key>
+        <string>Sub-Directories to Include in Recursive Searches</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>USE_HEADERMAP</string>
+        <key>Name</key>
+        <string>Use Header Maps</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>USER_HEADER_SEARCH_PATHS</string>
+        <key>Name</key>
+        <string>User Header Search Paths</string>
+        <key>Group</key>
+        <string>Search Paths</string>
+        <key>Type</key>
+        <string>StringList</string>
+        <key>Inherit</key>
+        <false />
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CODE_SIGN_ENTITLEMENTS</string>
+        <key>Name</key>
+        <string>Code Signing Entitlements</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Signing</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CODE_SIGN_IDENTITY</string>
+        <key>Name</key>
+        <string>Code Signing Identity</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Group</key>
+        <string>Signing</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>DEVELOPMENT_TEAM</string>
+        <key>Name</key>
+        <string>Development Team</string>
+        <key>Group</key>
+        <string>Signing</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OTHER_CODE_SIGN_FLAGS</string>
+        <key>Name</key>
+        <string>Other Code Signing Flags</string>
+        <key>Group</key>
+        <string>Signing</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PROVISIONING_PROFILE_SPECIFIER</string>
+        <key>Name</key>
+        <string>Provisioning Profile</string>
+        <key>Group</key>
+        <string>Signing</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>PROVISIONING_PROFILE</string>
+        <key>Name</key>
+        <string>Provisioning Profile (Deprecated)</string>
+        <key>Group</key>
+        <string>Signing</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>TEST_HOST</string>
+        <key>Name</key>
+        <string>Test Host</string>
+        <key>Group</key>
+        <string>Testing</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>TREAT_MISSING_BASELINES_AS_TEST_FAILURES</string>
+        <key>Name</key>
+        <string>Treat missing baselines as test failures</string>
+        <key>Group</key>
+        <string>Testing</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GENERATE_TEXT_BASED_STUBS</string>
+        <key>Name</key>
+        <string>Enable Text-Based Stubs Generation</string>
+        <key>Group</key>
+        <string>Text-Based API</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>INLINE_PRIVATE_FRAMEWORKS</string>
+        <key>Name</key>
+        <string>Enable Text-Based Stubs Inlining</string>
+        <key>Group</key>
+        <string>Text-Based API</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OTHER_TAPI_FLAGS</string>
+        <key>Name</key>
+        <string>Other Text-Based InstallAPI Flags</string>
+        <key>Group</key>
+        <string>Text-Based API</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>SUPPORTS_TEXT_BASED_API</string>
+        <key>Name</key>
+        <string>Supports Text-Based InstallAPI</string>
+        <key>Group</key>
+        <string>Text-Based API</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>TEXT_BASED_API_FILE</string>
+        <key>Name</key>
+        <string>Text-Based API File</string>
+        <key>Group</key>
+        <string>Text-Based API</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>TAPI_VERIFY_MODE</string>
+        <key>Name</key>
+        <string>Text-Based InstallAPI Verification Mode</string>
+        <key>Group</key>
+        <string>Text-Based API</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>ErrorsOnly</key>
+          <string>Errors Only</string>
+          <key>ErrorsAndWarnings</key>
+          <string>Errors And Warnings</string>
+          <key>Pedantic</key>
+          <string>Pedantic</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW</string>
+        <key>Name</key>
+        <string>Enable C++ Container Overflow Checks for Address Sanitizer</string>
+        <key>Group</key>
+        <string>Apple LLVM - Address Sanitizer</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_DEBUG_INFORMATION_LEVEL</string>
+        <key>Name</key>
+        <string>Debug Information Level</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>default</key>
+          <string>Compiler Default</string>
+          <key>line-tables-only</key>
+          <string>Line tables only</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ENABLE_CODE_COVERAGE</string>
+        <key>Name</key>
+        <string>Enable Code Coverage Support</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_STRICT_ALIASING</string>
+        <key>Name</key>
+        <string>Enforce Strict Aliasing</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_GENERATE_DEBUGGING_SYMBOLS</string>
+        <key>Name</key>
+        <string>Generate Debug Symbols</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_GENERATE_TEST_COVERAGE_FILES</string>
+        <key>Name</key>
+        <string>Generate Legacy Test Coverage Files</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_DYNAMIC_NO_PIC</string>
+        <key>Name</key>
+        <string>Generate Position-Dependent Code</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_INLINES_ARE_PRIVATE_EXTERN</string>
+        <key>Name</key>
+        <string>Inline Methods Hidden</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_INSTRUMENT_PROGRAM_FLOW_ARCS</string>
+        <key>Name</key>
+        <string>Instrument Program Flow</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>LLVM_LTO</string>
+        <key>Name</key>
+        <string>Link-Time Optimization</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_REUSE_STRINGS</string>
+        <key>Name</key>
+        <string>Make Strings Read-Only</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_NO_COMMON_BLOCKS</string>
+        <key>Name</key>
+        <string>No Common Blocks</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_OPTIMIZATION_LEVEL</string>
+        <key>Name</key>
+        <string>Optimization Level</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>0</key>
+          <string>None [-O0]</string>
+          <key>1</key>
+          <string>Fast [-O1]</string>
+          <key>2</key>
+          <string>Faster [-O2]</string>
+          <key>3</key>
+          <string>Fastest [-O3]</string>
+          <key>s</key>
+          <string>Fastest, Smallest[-Os]</string>
+          <key>fast</key>
+          <string>Fastest, Aggressive Optimizations [-Ofast]</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>4</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_OPTIMIZATION_PROFILE_FILE</string>
+        <key>Name</key>
+        <string>Optimization Profile File</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Value</key>
+        <string>$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata</string>
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_FAST_MATH</string>
+        <key>Name</key>
+        <string>Relax IEEE Compliance</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_THREADSAFE_STATICS</string>
+        <key>Name</key>
+        <string>Statics are Thread-Safe</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_SYMBOLS_PRIVATE_EXTERN</string>
+        <key>Name</key>
+        <string>Symbols Hidden by Default</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_UNROLL_LOOPS</string>
+        <key>Name</key>
+        <string>Unroll Loops</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_USE_OPTIMIZATION_PROFILE</string>
+        <key>Name</key>
+        <string>Use Optimization Profile</string>
+        <key>Group</key>
+        <string>Apple LLVM - Code Generation</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OTHER_CFLAGS</string>
+        <key>Name</key>
+        <string>Other C Flags</string>
+        <key>Group</key>
+        <string>Apple LLVM - Custom Compiler Flags</string>
+        <key>Type</key>
+        <string>Array</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OTHER_CPLUSPLUSFLAGS</string>
+        <key>Name</key>
+        <string>Other C++ Flags</string>
+        <key>Group</key>
+        <string>Apple LLVM - Custom Compiler Flags</string>
+        <key>Type</key>
+        <string>Array</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>WARNING_CFLAGS</string>
+        <key>Name</key>
+        <string>Other Warning Flags</string>
+        <key>Group</key>
+        <string>Apple LLVM - Custom Compiler Flags</string>
+        <key>Type</key>
+        <string>Array</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_CHAR_IS_UNSIGNED_CHAR</string>
+        <key>Name</key>
+        <string>'char' Type Is Unsigned</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_ASM_KEYWORD</string>
+        <key>Name</key>
+        <string>Allow 'asm', 'inline', 'typeof'</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_CW_ASM_SYNTAX</string>
+        <key>Name</key>
+        <string>CodeWarrior/MS-Style Inline Assembly</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_INPUT_FILETYPE</string>
+        <key>Name</key>
+        <string>Compile Sources As</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>automatic</key>
+          <string>According to File Type</string>
+          <key>sourcecode.c.c</key>
+          <string>C</string>
+          <key>sourcecode.c.objc</key>
+          <string>Objectvie-C</string>
+          <key>sourcecode.cpp.cpp</key>
+          <string>C++</string>
+          <key>sourcecode.cpp.objcpp</key>
+          <string>Objective-C++</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_LINK_WITH_DYNAMIC_LIBRARIES</string>
+        <key>Name</key>
+        <string>Enable Linking With Shared Libraries</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_TRIGRAPHS</string>
+        <key>Name</key>
+        <string>Enable Trigraphs</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS</string>
+        <key>Name</key>
+        <string>Generate Floating Point Library Calls</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_INCREASE_PRECOMPILED_HEADER_SHARING</string>
+        <key>Name</key>
+        <string>Increase Sharing of Precompiled Headers</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_PRECOMPILE_PREFIX_HEADER</string>
+        <key>Name</key>
+        <string>Precompile Prefix Header</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_PREFIX_HEADER</string>
+        <key>Name</key>
+        <string>Prefix Header</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_BUILTIN_FUNCTIONS</string>
+        <key>Name</key>
+        <string>Recognize Built-in Functions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_PASCAL_STRINGS</string>
+        <key>Name</key>
+        <string>Recognize Pascal Strings</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_SHORT_ENUMS</string>
+        <key>Name</key>
+        <string>Short Enumeration Constants</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_USE_STANDARD_INCLUDE_SEARCHING</string>
+        <key>Name</key>
+        <string>Use Standard System Header Directory Searching</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_CPP_EXCEPTIONS</string>
+        <key>Name</key>
+        <string>Enable C++ Exceptions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_CPP_RTTI</string>
+        <key>Name</key>
+        <string>Enable C++ Runtime Types</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES</string>
+        <key>Name</key>
+        <string>Allow Non-modular Includes In Framework Modules</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Modules</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ENABLE_MODULE_DEBUGGING</string>
+        <key>Name</key>
+        <string>Enable Clang Module Debugging</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Modules</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ENABLE_MODULES</string>
+        <key>Name</key>
+        <string>Enable Modules (C and Objective-C)</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Modules</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_MODULES_AUTOLINK</string>
+        <key>Name</key>
+        <string>Link Frameworks Automatically</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Modules</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_ENABLE_OBJC_EXCEPTIONS</string>
+        <key>Name</key>
+        <string>Enable Objective-C Exceptions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_LINK_OBJC_RUNTIME</string>
+        <key>Name</key>
+        <string>Implicitly Link Objective-C Runtime Support</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ENABLE_OBJC_ARC</string>
+        <key>Name</key>
+        <string>Objective-C Automatic Reference Counting</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ENABLE_OBJC_WEAK</string>
+        <key>Name</key>
+        <string>Weak References in Manual Retain Release</string>
+        <key>Group</key>
+        <string>Apple LLVM - Language - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ENABLE_NS_ASSERTIONS</string>
+        <key>Name</key>
+        <string>Enable Foundation Assertions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Preprocessing</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ENABLE_STRICT_OBJC_MSGSEND</string>
+        <key>Name</key>
+        <string>Enable Strict Checking of objc_msgSend Calls</string>
+        <key>Group</key>
+        <string>Apple LLVM - Preprocessing</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_PREPROCESSOR_DEFINITIONS</string>
+        <key>Name</key>
+        <string>Preprocessor Macros</string>
+        <key>Group</key>
+        <string>Apple LLVM - Preprocessing</string>
+        <key>Type</key>
+        <string>Array</string>
+        <key>Inherit</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS</string>
+        <key>Name</key>
+        <string>Preprocessor Macros Not Used In Precompiled Headers</string>
+        <key>Group</key>
+        <string>Apple LLVM - Preprocessing</string>
+        <key>Type</key>
+        <string>Array</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_INHIBIT_ALL_WARNINGS</string>
+        <key>Name</key>
+        <string>Inhibit All Warnings</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warning Policies</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_PEDANTIC</string>
+        <key>Name</key>
+        <string>Pedantic Warnings</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warning Policies</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_TREAT_WARNINGS_AS_ERRORS</string>
+        <key>Name</key>
+        <string>Treat Warnings as Errors</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warning Policies</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_CHECK_SWITCH_STATEMENTS</string>
+        <key>Name</key>
+        <string>Check Switch Statements</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS</string>
+        <key>Name</key>
+        <string>Deprecated Functions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_DOCUMENTATION_COMMENTS</string>
+        <key>Name</key>
+        <string>Documentation Comments</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_EMPTY_BODY</string>
+        <key>Name</key>
+        <string>Empty Loop Bodies</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_FOUR_CHARACTER_CONSTANTS</string>
+        <key>Name</key>
+        <string>Four Character Literals</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_SHADOW</string>
+        <key>Name</key>
+        <string>Hidden Local Variables</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_BOOL_CONVERSION</string>
+        <key>Name</key>
+        <string>Implicit Boolean Conversions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_CONSTANT_CONVERSION</string>
+        <key>Name</key>
+        <string>Implicit Constant Conversions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_64_TO_32_BIT_CONVERSION</string>
+        <key>Name</key>
+        <string>Implicit Conversion to 32 Bit Type</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_ENUM_CONVERSION</string>
+        <key>Name</key>
+        <string>Implicit Enum Conversions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_INT_CONVERSION</string>
+        <key>Name</key>
+        <string>Implicit Integer to Pointer Conversions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_IMPLICIT_SIGN_CONVERSION</string>
+        <key>Name</key>
+        <string>Implicit Signedness Conversions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_INFINITE_RECURSION</string>
+        <key>Name</key>
+        <string>Infinite Recursion</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED</string>
+        <key>Name</key>
+        <string>Initializer Not Fully Bracketed</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ABOUT_RETURN_TYPE</string>
+        <key>Name</key>
+        <string>Mismatched Return Type</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_MISSING_PARENTHESES</string>
+        <key>Name</key>
+        <string>Missing Braces and Parentheses</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS</string>
+        <key>Name</key>
+        <string>Missing Fields in Structure Initializers</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ABOUT_MISSING_PROTOTYPES</string>
+        <key>Name</key>
+        <string>Missing Function Prototypes</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ABOUT_MISSING_NEWLINE</string>
+        <key>Name</key>
+        <string>Missing Newline At End Of File</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_ASSIGN_ENUM</string>
+        <key>Name</key>
+        <string>Out-of-Range Enum Assignments</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ABOUT_POINTER_SIGNEDNESS</string>
+        <key>Name</key>
+        <string>Pointer Sign Comparison</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_SIGN_COMPARE</string>
+        <key>Name</key>
+        <string>Sign Comparison</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION</string>
+        <key>Name</key>
+        <string>Suspicious Implicit Conversions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS</string>
+        <key>Name</key>
+        <string>Treat Incompatible Pointer Type Warnings as Errors</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS</string>
+        <key>Name</key>
+        <string>Treat Missing Function Prototypes as Errors</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_TYPECHECK_CALLS_TO_PRINTF</string>
+        <key>Name</key>
+        <string>Typecheck Calls to printf/scanf</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNINITIALIZED_AUTOS</string>
+        <key>Name</key>
+        <string>Uninitialized Variables</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNKNOWN_PRAGMAS</string>
+        <key>Name</key>
+        <string>Unknown Pragma</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_UNREACHABLE_CODE</string>
+        <key>Name</key>
+        <string>Unreachable Code</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNUSED_FUNCTION</string>
+        <key>Name</key>
+        <string>Unused Functions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNUSED_LABEL</string>
+        <key>Name</key>
+        <string>Unused Labels</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNUSED_PARAMETER</string>
+        <key>Name</key>
+        <string>Unused Parameters</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNUSED_VALUE</string>
+        <key>Name</key>
+        <string>Unused Values</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNUSED_VARIABLE</string>
+        <key>Name</key>
+        <string>Unused Variables</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - All languages</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN__EXIT_TIME_DESTRUCTORS</string>
+        <key>Name</key>
+        <string>Exit-Time C++ Destructors</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_NON_VIRTUAL_DESTRUCTOR</string>
+        <key>Name</key>
+        <string>Nonvirtual Destructor</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS</string>
+        <key>Name</key>
+        <string>Overloaded Virtual Functions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_SUSPICIOUS_MOVE</string>
+        <key>Name</key>
+        <string>Suspicious Moves</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO</string>
+        <key>Name</key>
+        <string>Undefined Use of offsetof Macro</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_CXX0X_EXTENSIONS</string>
+        <key>Name</key>
+        <string>Using C++11 extensions in earlier versions of C++</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - C++</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</string>
+        <key>Name</key>
+        <string>Direct usage of 'isa'</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>YES</key>
+          <string>Yes</string>
+          <key>NO</key>
+          <string>No</string>
+          <key>YES_ERROR</key>
+          <string>Yes (treat as error)</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN__DUPLICATE_METHOD_MATCH</string>
+        <key>Name</key>
+        <string>Duplicate Method Definitions</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES</string>
+        <key>Name</key>
+        <string>Implicit Atomic Objective-C Properties</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS</string>
+        <key>Name</key>
+        <string>Implicit Synthesized Properties</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL</string>
+        <key>Name</key>
+        <string>Incomplete Objective-C Protocols</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</string>
+        <key>Name</key>
+        <string>Overriding Deprecated Objective-C Methods</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_STRICT_SELECTOR_MATCH</string>
+        <key>Name</key>
+        <string>Strict Selector Matching</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>GCC_WARN_UNDECLARED_SELECTOR</string>
+        <key>Name</key>
+        <string>Undeclared Selector</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_OBJC_ROOT_CLASS</string>
+        <key>Name</key>
+        <string>Unintentional Root Class</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>YES</key>
+          <string>Yes</string>
+          <key>NO</key>
+          <string>No</string>
+          <key>YES_ERROR</key>
+          <string>Yes (treat as error)</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE</string>
+        <key>Name</key>
+        <string>Implicit ownership types on out parameters</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C and ARC</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF</string>
+        <key>Name</key>
+        <string>Implicit retain of 'self' within blocks</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C and ARC</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK</string>
+        <key>Name</key>
+        <string>Repeatedly using a __weak reference</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C and ARC</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_WARN__ARC_BRIDGE_CAST_NONARC</string>
+        <key>Name</key>
+        <string>Using __bridge Casts Outside of ARC</string>
+        <key>Group</key>
+        <string>Apple LLVM - Warnings - Objective C and ARC</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSETCATALOG_COMPILER_APPICON_NAME</string>
+        <key>Name</key>
+        <string>Asset Catalog App Icon Set Name</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</string>
+        <key>Name</key>
+        <string>Asset Catalog Launch Image Set Name</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSETCATALOG_OTHER_FLAGS</string>
+        <key>Name</key>
+        <string>Asset Catalog Other Flags</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ENABLE_ONLY_ACTIVE_RESOURCES</string>
+        <key>Name</key>
+        <string>Build Active Resources Only</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ENABLE_INCREMENTAL_DISTILL</string>
+        <key>Name</key>
+        <string>Enable Incremental Distill</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSETCATALOG_COMPILER_OPTIMIZATION</string>
+        <key>Name</key>
+        <string>Optimization</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key></key>
+          <string></string>
+          <key>time</key>
+          <string>time</string>
+          <key>space</key>
+          <string>space</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSETCATALOG_NOTICES</string>
+        <key>Name</key>
+        <string>Show Notices</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSETCATALOG_WARNINGS</string>
+        <key>Name</key>
+        <string>Show Warnings</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>ASSETCATALOG_COMPILER_STICKER_PACK_IDENTIFIER_PREFIX</string>
+        <key>Name</key>
+        <string>Sticker Pack Identifier Prefix</string>
+        <key>Group</key>
+        <string>Asset Catalog Compiler - Options</string>
+        <key>Type</key>
+        <string>String</string>
+        <key>Value</key>
+        <string>$(PRODUCT_BUNDLE_IDENTIFIER).sticker-pack.</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IBSC_COMPILER_AUTO_ACTIVATE_CUSTOM_FONTS</string>
+        <key>Name</key>
+        <string>Auto-Activate Custom Fonts</string>
+        <key>Group</key>
+        <string>Interface Builder Storyboard Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IBSC_MODULE</string>
+        <key>Name</key>
+        <string>Default Module</string>
+        <key>Group</key>
+        <string>Interface Builder Storyboard Compiler - Options</string>
+        <key>Type</key>
+        <string>String</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IBSC_FLATTEN_NIBS</string>
+        <key>Name</key>
+        <string>Flatten Compiled Storyboard Files</string>
+        <key>Group</key>
+        <string>Interface Builder Storyboard Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IBSC_OTHER_FLAGS</string>
+        <key>Name</key>
+        <string>Other Storyboard Compiler Flags</string>
+        <key>Group</key>
+        <string>Interface Builder Storyboard Compiler - Options</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IBSC_ERRORS</string>
+        <key>Name</key>
+        <string>Show Errors</string>
+        <key>Group</key>
+        <string>Interface Builder Storyboard Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IBSC_NOTICES</string>
+        <key>Name</key>
+        <string>Show Notices</string>
+        <key>Group</key>
+        <string>Interface Builder Storyboard Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>IBSC_WARNINGS</string>
+        <key>Name</key>
+        <string>Show Warnings</string>
+        <key>Group</key>
+        <string>Interface Builder Storyboard Compiler - Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_HEADER_SEARCH_PATHS</string>
+        <key>Name</key>
+        <string>Header Search Paths</string>
+        <key>Group</key>
+        <string>Metal Compiler - Build Options</string>
+        <key>Type</key>
+        <string>StringList</string>
+        <key>Inherit</key>
+        <false />
+        <key>Path</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_OPTIMIZATION_LEVEL</string>
+        <key>Name</key>
+        <string>Optimization Level</string>
+        <key>Group</key>
+        <string>Metal Compiler - Build Options</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>0</key>
+          <string>None [-O0]</string>
+          <key>1</key>
+          <string>Fast [-O1]</string>
+          <key>2</key>
+          <string>Faster [-O2]</string>
+          <key>3</key>
+          <string>Fastest [-O3]</string>
+          <key>s</key>
+          <string>Fastest, Smallest[-Os]</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_PREPROCESSOR_DEFINITIONS</string>
+        <key>Name</key>
+        <string>Preprocessor Definitions</string>
+        <key>Group</key>
+        <string>Metal Compiler - Build Options</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_ENABLE_DEBUG_INFO</string>
+        <key>Name</key>
+        <string>Produce debugging information</string>
+        <key>Group</key>
+        <string>Metal Compiler - Build Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_FAST_MATH</string>
+        <key>Name</key>
+        <string>Enable fast math</string>
+        <key>Group</key>
+        <string>Metal Compiler - Features</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_IGNORE_WARNINGS</string>
+        <key>Name</key>
+        <string>Ignore Warnings</string>
+        <key>Group</key>
+        <string>Metal Compiler - Features</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_LANGUAGE_REVISION</string>
+        <key>Name</key>
+        <string>Metal language revision</string>
+        <key>Group</key>
+        <string>Metal Compiler - Features</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>UseDeploymentTarget</key>
+          <string>Use default for deployment target</string>
+          <key>iOSMetal10</key>
+          <string>Metal 1.0</string>
+          <key>Metal11</key>
+          <string>Metal 1.1</string>
+          <key>Metal12</key>
+          <string>Metal 1.2</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>MTL_TREAT_WARNINGS_AS_ERRORS</string>
+        <key>Name</key>
+        <string>Treat Warnings as Errors</string>
+        <key>Group</key>
+        <string>Metal Compiler - Features</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OTHER_OSACOMPILEFLAGS</string>
+        <key>Name</key>
+        <string>Other OSACompile Flags</string>
+        <key>Group</key>
+        <string>OSACompile - Build Options</string>
+        <key>Type</key>
+        <string>StringList</string>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>OSACOMPILE_EXECUTE_ONLY</string>
+        <key>Name</key>
+        <string>Save as Execute-Only</string>
+        <key>Group</key>
+        <string>OSACompile - Build Options</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>RUN_CLANG_STATIC_ANALYZER</string>
+        <key>Name</key>
+        <string>Analyze During 'Build'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Analysis Policy</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION</string>
+        <key>Name</key>
+        <string>Mode of Analysis for 'Analyze'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Analysis Policy</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>shallow</key>
+          <string>Shallow (faster)</string>
+          <key>deep</key>
+          <string>Deep</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_STATIC_ANALYZER_MODE</string>
+        <key>Name</key>
+        <string>Mode of Analysis for 'Build'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Analysis Policy</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>shallow</key>
+          <string>Shallow (faster)</string>
+          <key>deep</key>
+          <string>Deep</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_DEADCODE_DEADSTORES</string>
+        <key>Name</key>
+        <string>Dead Stores</string>
+        <key>Group</key>
+        <string>Static Analyzer - Generic Issues</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_MEMORY_MANAGEMENT</string>
+        <key>Name</key>
+        <string>Improper Memory Management</string>
+        <key>Group</key>
+        <string>Static Analyzer - Generic Issues</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED</string>
+        <key>Name</key>
+        <string>Missing Localizability</string>
+        <key>Group</key>
+        <string>Static Analyzer - Generic Issues</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>NO</key>
+          <string>No</string>
+          <key>YES</key>
+          <string>Yes</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT</string>
+        <key>Name</key>
+        <string>Missing Localization Context Comment</string>
+        <key>Group</key>
+        <string>Static Analyzer - Generic Issues</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>NO</key>
+          <string>No</string>
+          <key>YES</key>
+          <string>Yes</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>0</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_NONNULL</string>
+        <key>Name</key>
+        <string>Misuse of 'nonnull'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Generic Issues</string>
+        <key>Type</key>
+        <string>Enum</string>
+        <key>Value</key>
+        <dict>
+          <key>YES</key>
+          <string>Yes (Aggressive)</string>
+          <key>YES_NONAGGRESSIVE</key>
+          <string>Yes</string>
+          <key>NO</key>
+          <string>No</string>
+        </dict>
+        <key>DefaultIndex</key>
+        <integer>1</integer>
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_GCD</string>
+        <key>Name</key>
+        <string>Misuse of Grand Central Dispatch</string>
+        <key>Group</key>
+        <string>Static Analyzer - Generic Issues</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_ATSYNC</string>
+        <key>Name</key>
+        <string>@synchronized with nil mutex</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_NSCFERROR</string>
+        <key>Name</key>
+        <string>Improper Handling of CFError and NSError</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_DEALLOC</string>
+        <key>Name</key>
+        <string>Improper Instance Cleanup in '-dealloc'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES</string>
+        <key>Name</key>
+        <string>Method Signatures Mismatch</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_COLLECTIONS</string>
+        <key>Name</key>
+        <string>Misuse of Collections API</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_GENERICS</string>
+        <key>Name</key>
+        <string>Misuse of Objective-C generics</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_UNUSED_IVARS</string>
+        <key>Name</key>
+        <string>Unused Ivars</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_SELF_INIT</string>
+        <key>Name</key>
+        <string>Violation of 'self = `super init`' Rule</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_OBJC_RETAIN_COUNT</string>
+        <key>Name</key>
+        <string>Violation of Reference Counting Rules</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Objective-C</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER</string>
+        <key>Name</key>
+        <string>Floating Point Value Used as Loop Counter</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_KEYCHAIN_API</string>
+        <key>Name</key>
+        <string>Misuse of Keychain Services API</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN</string>
+        <key>Name</key>
+        <string>Unchecked Return Values</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS</string>
+        <key>Name</key>
+        <string>Use of 'getpw', 'gets' (buffer overflow)</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP</string>
+        <key>Name</key>
+        <string>Use of 'mktemp' or Predictable 'mktemps'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND</string>
+        <key>Name</key>
+        <string>Use of 'rand' Functions</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY</string>
+        <key>Name</key>
+        <string>Use of 'strcpy' and 'strcat'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <false />
+      </dict>
+      <dict>
+        <key>Setting</key>
+        <string>CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK</string>
+        <key>Name</key>
+        <string>Use of 'vfork'</string>
+        <key>Group</key>
+        <string>Static Analyzer - Issues - Security</string>
+        <key>Type</key>
+        <string>Bool</string>
+        <key>Value</key>
+        <true />
+      </dict>
+    </array>
+  </dict>
+</plist>

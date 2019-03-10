@@ -1,0 +1,6 @@
+//image name, width, height
+edit-dark,14,14
+help-dark,16,16
+minus-dark,12,12
+plus-dark,12,12
+refresh-dark,12,12

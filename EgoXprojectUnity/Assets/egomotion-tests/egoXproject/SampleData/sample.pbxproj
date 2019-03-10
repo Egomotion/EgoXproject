@@ -1,0 +1,32 @@
+// !$*UTF8*$!
+{
+	myInt = 1;
+	myString = C464EA4E18CDBEA5000F8F92 /* Project object */;
+	C464EA4E18CDBEA5000F8F92 = "qstr"; 
+	bool1 = YES; /* Project object */
+	bool2 = NO;
+	emptyDic = {
+	};
+	emptyArray = (
+	);
+	dic = {
+
+/* Begin PBXBuildFile section */
+		key1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = keyA /* Foundation.framework */; };
+		key2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = keyB /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+		key3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				valueA /* TestApp.app */,
+				valueB /* TestAppTests.xctest */,
+			);
+			quoted = "<group>";
+			empty = ();
+
+		};
+
+		quoted2 = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+	};	
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>25D0BE05-333B-4CD3-8C1B-6D5B7BF77DA6</UUID>
+        <nextObjectID>102</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>481</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>XDDevAttributeMapping</key>
+                        <data>
+		0plcXXRN7XHKl5CcF+fwriFmUpON3ZtcI/AfK748aWc=
+		</data>
+                        <key>XDDevEntityMapping</key>
+                        <data>
+		qeN1Ym3TkWN1G6dU9RfX6Kd2ccEvcDVWHpd3LpLgboI=
+		</data>
+                        <key>XDDevMappingModel</key>
+                        <data>
+		EqtMzvRnVZWkXwBHu4VeVGy8UyoOe+bi67KC79kphlQ=
+		</data>
+                        <key>XDDevPropertyMapping</key>
+                        <data>
+		XN33V44TTGY4JETlMoOB5yyTKxB+u4slvDIinv0rtGA=
+		</data>
+                        <key>XDDevRelationshipMapping</key>
+                        <data>
+		akYY9LhehVA/mCb4ATLWuI9XGLcjpm14wWL1oEBtIcs=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string></string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="XDDEVMAPPINGMODEL" id="z102">
+        <attribute name="sourcemodelpath" type="string">Model2.xcdatamodeld/Model2.xcdatamodel</attribute>
+        <attribute name="sourcemodeldata" type="binary">YnBsaXN0MDDUAQIDBAUGZ2hYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
+EAcIFzM0NTtCRkpOVlldYWJVJG51bGzXCQoLDA0ODxAREhMUExZfEA9feGRfcm9vdFBhY2thZ2VWJGNsYXNzXF94ZF9jb21tZW50c18QEF94ZF9tb2RlbE1hbmFnZXJfEBVfY29uZmlndXJhdGlvbnNCeU5hbWVdX3hkX21vZGVsTmFtZV8QF19tb2RlbFZlcnNpb25JZGVudGlmaWVygAKAD4ALgACADYAAgA7eGBkaGxwdHgofICEiIyQlJicoJRMrLC0uLyUlE18QHFhEQnVja2V0Rm9yQ2xhc3Nlc3dhc0VuY29kZWRfEBpYREJ1Y2tldEZvclBhY2thZ2Vzc3RvcmFnZV8QHFhEQnVja2V0Rm9ySW50ZXJmYWNlc3N0b3JhZ2VfEA9feGRfb3duaW5nTW9kZWxfEB1YREJ1Y2tldEZvclBhY2thZ2Vzd2FzRW5jb2RlZFZfb3duZXJfEBtYREJ1Y2tldEZvckRhdGFUeXBlc3N0b3JhZ2VbX3Zpc2liaWxpdHlfEBlYREJ1Y2tldEZvckNsYXNzZXNzdG9yYWdlVV9uYW1lXxAfWERCdWNrZXRGb3JJbnRlcmZhY2Vzd2FzRW5jb2RlZF8QHlhEQnVja2V0Rm9yRGF0YVR5cGVzd2FzRW5jb2RlZF8QEF91bmlxdWVFbGVtZW50SUSABIAJgAeAAYAEgACACIAKEACABYADgASABIAAUFNZRVPTNjcKODk6V05TLmtleXNaTlMub2JqZWN0c6CggAbSPD0+P1okY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxlRGljdGlvbmFyeaM+QEFcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00zY3CkNEOqCggAbTNjcKR0g6oKCABtM2NwpLTDqgoIAG0jw9T1BeWERNb2RlbFBhY2thZ2WmUVJTVFVBXlhETW9kZWxQYWNrYWdlXxAPWERVTUxQYWNrYWdlSW1wXxARWERVTUxOYW1lc3BhY2VJbXBfEBRYRFVNTE5hbWVkRWxlbWVudEltcF8QD1hEVU1MRWxlbWVudEltcNI3CldYoIAM0jw9WlteTlNNdXRhYmxlQXJyYXmjWlxBV05TQXJyYXnTNjcKXl86oKCABlDSPD1jZFlYRFBNTW9kZWyjZWZBWVhEUE1Nb2RlbFdYRE1vZGVsXxAPTlNLZXllZEFyY2hpdmVy0WkoVHJvb3SAAQAIABEAGgAjAC0AMgA3AEoAUABfAHEAeACFAJgAsAC+ANgA2gDcAN4A4ADiAOQA5gEDASIBPwFeAXABkAGXAbUBwQHdAeMCBQImAjkCOwI9Aj8CQQJDAkUCRwJJAksCTQJPAlECUwJVAlYCWgJhAmkCdAJ1AnYCeAJ9AogCkQKnAqsCuALBAsgCyQLKAswC0wLUAtUC1wLeAt8C4ALiAucC9gL9AwwDHgMyA0kDWwNgA2EDYwNoA3cDewODA4oDiwOMA44DjwOUA54DogOsA7QDxgPJA84AAAAAAAACAQAAAAAAAABrAAAAAAAAAAAAAAAAAAAD0A==
+</attribute>
+        <attribute name="destinationmodelpath" type="string">Model.xcdatamodeld/Model.xcdatamodel</attribute>
+        <attribute name="destinationmodeldata" type="binary">YnBsaXN0MDDUAQIDBAUGZ2hYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8Q
+EAcIFzM0NTtCRkpOVlldYWJVJG51bGzXCQoLDA0ODxAREhMUExZfEA9feGRfcm9vdFBhY2thZ2VWJGNsYXNzXF94ZF9jb21tZW50c18QEF94ZF9tb2RlbE1hbmFnZXJfEBVfY29uZmlndXJhdGlvbnNCeU5hbWVdX3hkX21vZGVsTmFtZV8QF19tb2RlbFZlcnNpb25JZGVudGlmaWVygAKAD4ALgACADYAAgA7eGBkaGxwdHgofICEiIyQlJicoJRMrLC0uLyUlE18QHFhEQnVja2V0Rm9yQ2xhc3Nlc3dhc0VuY29kZWRfEBpYREJ1Y2tldEZvclBhY2thZ2Vzc3RvcmFnZV8QHFhEQnVja2V0Rm9ySW50ZXJmYWNlc3N0b3JhZ2VfEA9feGRfb3duaW5nTW9kZWxfEB1YREJ1Y2tldEZvclBhY2thZ2Vzd2FzRW5jb2RlZFZfb3duZXJfEBtYREJ1Y2tldEZvckRhdGFUeXBlc3N0b3JhZ2VbX3Zpc2liaWxpdHlfEBlYREJ1Y2tldEZvckNsYXNzZXNzdG9yYWdlVV9uYW1lXxAfWERCdWNrZXRGb3JJbnRlcmZhY2Vzd2FzRW5jb2RlZF8QHlhEQnVja2V0Rm9yRGF0YVR5cGVzd2FzRW5jb2RlZF8QEF91bmlxdWVFbGVtZW50SUSABIAJgAeAAYAEgACACIAKEACABYADgASABIAAUFNZRVPTNjcKODk6V05TLmtleXNaTlMub2JqZWN0c6CggAbSPD0+P1okY2xhc3NuYW1lWCRjbGFzc2VzXxATTlNNdXRhYmxlRGljdGlvbmFyeaM+QEFcTlNEaWN0aW9uYXJ5WE5TT2JqZWN00zY3CkNEOqCggAbTNjcKR0g6oKCABtM2NwpLTDqgoIAG0jw9T1BeWERNb2RlbFBhY2thZ2WmUVJTVFVBXlhETW9kZWxQYWNrYWdlXxAPWERVTUxQYWNrYWdlSW1wXxARWERVTUxOYW1lc3BhY2VJbXBfEBRYRFVNTE5hbWVkRWxlbWVudEltcF8QD1hEVU1MRWxlbWVudEltcNI3CldYoIAM0jw9WlteTlNNdXRhYmxlQXJyYXmjWlxBV05TQXJyYXnTNjcKXl86oKCABlDSPD1jZFlYRFBNTW9kZWyjZWZBWVhEUE1Nb2RlbFdYRE1vZGVsXxAPTlNLZXllZEFyY2hpdmVy0WkoVHJvb3SAAQAIABEAGgAjAC0AMgA3AEoAUABfAHEAeACFAJgAsAC+ANgA2gDcAN4A4ADiAOQA5gEDASIBPwFeAXABkAGXAbUBwQHdAeMCBQImAjkCOwI9Aj8CQQJDAkUCRwJJAksCTQJPAlECUwJVAlYCWgJhAmkCdAJ1AnYCeAJ9AogCkQKnAqsCuALBAsgCyQLKAswC0wLUAtUC1wLeAt8C4ALiAucC9gL9AwwDHgMyA0kDWwNgA2EDYwNoA3cDewODA4oDiwOMA44DjwOUA54DogOsA7QDxgPJA84AAAAAAAACAQAAAAAAAABrAAAAAAAAAAAAAAAAAAAD0A==
+</attribute>
+        <relationship name="entitymappings" type="0/0" destination="XDDEVENTITYMAPPING"></relationship>
+    </object>
+</database>
